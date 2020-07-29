@@ -1,0 +1,73 @@
+.flex{
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+}
+.color-grad-gray{
+	background: linear-gradient(0deg, #B6B3AF 0%, #D6D4D3 100%);
+}
+.color-grad-green{
+	background: linear-gradient(360deg, #0C5230 0%, #216D48 100%);
+}
+.color-grad-sky{
+	background: linear-gradient(290deg, #E6F3FF 0%, #AED8FF 100%);
+}
+.color-background-green{
+	background: #0C5230;
+}
+.main-title-p{
+	color: #0C5230;
+	font-weight: bold;
+	font-size: 34px !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	text-align: start;
+	@include tablets {
+		text-align: center;
+		padding-bottom: 2.61% !important;
+		padding-top: 2.61% !important;
+	}
+	@include phones {
+		font-size: 28px !important;
+	}
+}
+
+.l-img-witdhwr {
+	width: 32.2%;
+	&:last-child {
+	margin-left: 1.7%;
+}
+	&:first-child {
+	margin-right: 1.7%;
+	}
+	@include tablets {
+		width: 50%;
+		&:last-child {
+			margin-left: 0px;
+		}
+		&:first-child {
+			margin-right: 0px;
+		}
+	}
+}
+.column-content{
+	flex-direction: column;
+}
+.l-text-pt{
+	padding-top: 50px;
+	@include tablets {
+	padding-top: 0px;
+}
+}
+.img-pb{
+	padding-bottom: 20px;
+	@include tablets {
+	padding-bottom: 0px;
+}
+}
+.l-text-pb{
+	padding-bottom: 40px;
+	@include tablets {
+	padding-bottom: 0px;
+}
+}
