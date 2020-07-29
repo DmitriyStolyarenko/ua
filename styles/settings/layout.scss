@@ -81,10 +81,9 @@ body {
 .logo-title-wrapper {
   // обертка для лого и h2 заголовка
   display: flex;
-  width: 100%;
   align-items: center;
-  padding-top: 3%;
-  padding-left: 0px;
+  padding-top: 8.35%;
+  padding-left: 8.35%;
 
   @include tablets {
     justify-content: center;
@@ -92,7 +91,6 @@ body {
     padding-right: 8.35%;
   }
   @include phones {
-	padding-top: 8.35%;
     flex-direction: column;
   }
 }

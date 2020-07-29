@@ -80,10 +80,9 @@ body {
 
 .logo-title-wrapper {
   display: flex;
-  width: 100%;
   align-items: center;
-  padding-top: 3%;
-  padding-left: 0px;
+  padding-top: 8.35%;
+  padding-left: 8.35%;
 }
 @media screen and (max-width: 768px) {
   .logo-title-wrapper {
@@ -94,7 +93,6 @@ body {
 }
 @media screen and (max-width: 480px) {
   .logo-title-wrapper {
-    padding-top: 8.35%;
     flex-direction: column;
   }
 }
@@ -419,23 +417,21 @@ body {
 
 .l-img-witdhwr {
   width: 32.2%;
+  margin-right: 1.66%;
 }
 .l-img-witdhwr:last-child {
-  margin-left: 1.7%;
-}
-.l-img-witdhwr:first-child {
-  margin-right: 1.7%;
+  margin-right: -1px;
 }
 @media screen and (max-width: 768px) {
   .l-img-witdhwr {
     width: 50%;
+    margin-right: 0px;
   }
   .l-img-witdhwr:last-child {
-    margin-left: 0px;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
   .l-img-witdhwr:first-child {
-    margin-right: 0px;
     margin-bottom: 20px;
   }
 }
